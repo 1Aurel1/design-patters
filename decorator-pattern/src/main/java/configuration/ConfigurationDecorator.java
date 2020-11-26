@@ -10,4 +10,8 @@ public abstract class ConfigurationDecorator implements CustomConfiguration {
     public SysConfig assemble() {
         return configuration.assemble();
     }
+
+    public void sentNotifications() {
+        configuration.sentNotifications();
+    }
 }

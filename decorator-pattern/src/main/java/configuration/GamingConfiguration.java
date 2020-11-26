@@ -18,4 +18,9 @@ public class GamingConfiguration extends ConfigurationDecorator {
         return config;
     }
 
+    @Override
+    public void sentNotifications() {
+        super.sentNotifications();
+        System.out.println("User is in gaming mode");
+    }
 }

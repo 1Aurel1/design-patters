@@ -10,4 +10,8 @@ public class BasicConfiguration implements CustomConfiguration {
                 .notifications(Level.MODERATE)
                 .build();
     }
+
+    public void sentNotifications() {
+        System.out.println("User is active");
+    }
 }
