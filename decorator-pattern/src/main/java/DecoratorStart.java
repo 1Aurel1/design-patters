@@ -8,5 +8,6 @@ public class DecoratorStart {
     public static void main(String[] args) {
         CustomConfiguration configuration = new ProductivityConfiguration(new GamingConfiguration(new BasicConfiguration()));
         configuration.assemble();
+        configuration.sentNotifications();
     }
 }
